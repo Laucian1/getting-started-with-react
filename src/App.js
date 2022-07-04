@@ -1,8 +1,14 @@
 import "./App.css";
+import WelcomeBack from "./WelcomeBack"
 
 function App() {
-  const element = <p>Hello, there!</p>
-  return element
+  return (
+    <>
+      <WelcomeBack name="Joe"/>
+      <WelcomeBack name = "Anna"/>
+      <WelcomeBack />
+    </>
+  )
 }
 
 export default App;
